@@ -306,40 +306,40 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/citrus/proprietary/system_ext/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.latency@2.0.so \
     vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/soundfx/libvolumelistener.so \
     vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/soundfx/libvolumelistener.so \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_adsp_loader.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_adsp_loader.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_apr.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_apr.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_aw87359_audio.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_aw87359_audio.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_aw87519_audio.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_aw87519_audio.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_bolero_cdc.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_bolero_cdc.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_machine_bengal.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_machine_bengal.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_mbhc.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_mbhc.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_native.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_native.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_pinctrl_lpi.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_pinctrl_lpi.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_platform.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_platform.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_pm2250_spmi.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_pm2250_spmi.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_q6.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_q6.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_q6_notifier.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_q6_notifier.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_q6_pdr.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_q6_pdr.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_rouleur.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_rouleur.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_rouleur_slave.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_rouleur_slave.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_rx_macro.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_rx_macro.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_snd_event.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_snd_event.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_stub.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_stub.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_swr.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_swr.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_swr_ctrl.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_swr_ctrl.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_tx_macro.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_tx_macro.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_usf.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_usf.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_va_macro.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_va_macro.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_wcd937x.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wcd937x.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_wcd937x_slave.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wcd937x_slave.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_wcd9xxx.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wcd9xxx.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/audio_wcd_core.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wcd_core.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/exfat.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/exfat.ko \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/modules.alias:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/modules.alias \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/modules.dep:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/modules.dep \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/modules.load:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/modules.load \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/modules.softdep:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/modules.softdep \
-    vendor/xiaomi/lime/proprietary/product/vendor_overlay/30/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/qca_cld3_wlan.ko
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_adsp_loader.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_adsp_loader.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_apr.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_apr.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_aw87359_audio.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_aw87359_audio.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_aw87519_audio.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_aw87519_audio.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_bolero_cdc.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_bolero_cdc.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_machine_bengal.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_machine_bengal.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_mbhc.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_mbhc.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_native.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_native.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_pinctrl_lpi.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_pinctrl_lpi.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_platform.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_platform.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_pm2250_spmi.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_pm2250_spmi.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_q6.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_q6.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_q6_notifier.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_q6_notifier.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_q6_pdr.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_q6_pdr.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_rouleur.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_rouleur.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_rouleur_slave.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_rouleur_slave.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_rx_macro.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_rx_macro.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_snd_event.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_snd_event.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_stub.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_stub.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_swr.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_swr.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_swr_ctrl.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_swr_ctrl.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_tx_macro.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_tx_macro.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_usf.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_usf.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_va_macro.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_va_macro.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_wcd937x.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wcd937x.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_wcd937x_slave.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wcd937x_slave.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_wcd9xxx.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wcd9xxx.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/audio_wcd_core.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wcd_core.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/exfat.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/exfat.ko \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/modules.alias:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/modules.alias \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/modules.dep:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/modules.dep \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/modules.load:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/modules.load \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/modules.softdep:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/modules.softdep \
+    vendor/xiaomi/citrus/proprietary/product/vendor_overlay/30/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/qca_cld3_wlan.ko
 
 PRODUCT_PACKAGES += \
     PowerOffAlarm \
